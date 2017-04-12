@@ -13,7 +13,9 @@ generate accordingly the HTTP requests. For this task, [Postman](https://www.get
 
 1. How many months it took each Informatic Bachelor students to go from the first to the sixth semester. Is the difference between male and female students in average statistically significant?
 
-2. 
+2. How much time an Informatic Master student spent at EPFL? And compute the "average stay" per specialization.
+
+3. *BONUS*: perform the gender-based study as in 1. on Informatic Master students.
 
 ## Homework 03 - Interactive Viz
 
