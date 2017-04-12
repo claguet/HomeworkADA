@@ -34,3 +34,12 @@ Gain experience on Applied Machine Learning, exploring an interesting dataset ab
 2. ggregate the referee information grouping by soccer player, and use an unsupervised learning technique to cluster the soccer players in 2 disjoint clusters. Remove features iteratively, and at each step perform again the clustering and compute the silhouette score.
 
 ## Homework 05 - Taming Text
+explore a relatively large corpus of emails released in public during the [Hillary Clinton email controversy](https://en.wikipedia.org/wiki/Hillary_Clinton_email_controversy).
+
+1. Generate a word cloud based on the raw corpus. With the help of `nltk`, implement a standard text pre-processing pipeline (e.g., tokenization, stopword removal, stemming, etc.) and generate a new word cloud.
+
+2. Find all the mentions of world countries in the whole corpus, using the `pycountry` utility. Perform sentiment analysis on every email message. Aggregate the polarity information of all the emails by country, and plot a histogram that summarizes the perception of the different countries. 
+
+3. Using the `models.ldamodel` module from the [gensim library](https://radimrehurek.com/gensim/index.html), run topic modeling over the corpus.
+
+4. *BONUS*: build the communication graph (unweighted and undirected) among the different email senders and recipients using the `NetworkX` library.
