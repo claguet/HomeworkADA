@@ -26,5 +26,11 @@ The P3 database is formed by entries which assign a grant (and its approved amou
 2. *BONUS*: using the map built, and the geographical information contained in it, give a *rough estimate* of the difference in research funding between the areas divided by the [Röstigraben](https://en.wikipedia.org/wiki/R%C3%B6stigraben)?
 
 ## Homework 04 - Applied ML
+Gain experience on Applied Machine Learning, exploring an interesting dataset about soccer players and referees.
+
+1. Train a `sklearn.ensemble.RandomForestClassifier` that given a soccer player description outputs his skin color. Show how different parameters passed to the Classifier affect the overfitting issue. Perform cross-validation to mitigate the overfitting of your model and inspect the `feature_importances_` attribute.
+*BONUS*: plot the learning curves against at least 2 different sets of parameters passed to your Random Forest. 
+
+2. ggregate the referee information grouping by soccer player, and use an unsupervised learning technique to cluster the soccer players in 2 disjoint clusters. Remove features iteratively, and at each step perform again the clustering and compute the silhouette score.
 
 ## Homework 05 - Taming Text
