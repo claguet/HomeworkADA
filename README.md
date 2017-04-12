@@ -18,6 +18,12 @@ generate accordingly the HTTP requests. For this task, [Postman](https://www.get
 3. *BONUS*: perform the gender-based study as in 1. on Informatic Master students.
 
 ## Homework 03 - Interactive Viz
+Work with the P3 database of the [SNSF](http://www.snf.ch/en/Pages/default.aspx) (Swiss National Science Foundation).
+The P3 database is formed by entries which assign a grant (and its approved amount) to a University name.
+
+1. Build a [Choropleth map](https://en.wikipedia.org/wiki/Choropleth_map) which shows intuitively (i.e., use colors wisely) how much grant money goes to each Swiss canton. Find a way to go from University to Canton name. The [Geonames Full Text Search API in JSON](http://www.geonames.org/export/web-services.html) can help.
+
+2. *BONUS*: using the map built, and the geographical information contained in it, give a *rough estimate* of the difference in research funding between the areas divided by the [Röstigraben](https://en.wikipedia.org/wiki/R%C3%B6stigraben)?
 
 ## Homework 04 - Applied ML
 
